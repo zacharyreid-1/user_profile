@@ -1,0 +1,79 @@
+*{
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f4f4f4;
+}
+
+.profile{
+    height: 133px;
+    width: 100;
+    border: solid black;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+.job{
+    padding-top: 10px;
+}
+
+.education, .skills, .certifications{
+    padding-top: 25px;
+}
+
+.socials{
+    padding-top: 25px;
+    display: flex;
+    display: inline-flex;
+}
+
+.linkedin, .resume{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.education{
+    padding-top: 25px;
+}
+
+.college, .college_major{
+    padding-top: 10px;
+}
+
+.skill_1, .skill_2{
+    padding-top: 10px;
+}
+
+.cert_1{
+    padding-top: 10px;
+}
+
+.portfolio{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    border: solid black;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+
+.footer{
+    position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
+    font-size: small;
+}
+
+a:link, a:visited, a:active{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
